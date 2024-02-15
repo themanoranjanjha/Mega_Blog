@@ -95,5 +95,6 @@ export class Service{
         return this.bucket.getFilePreview(conf.appwriteBucketId, fileId)
     }
 }
+// eslint-disable-next-line no-unused-vars
 const service = new Service()
 export default Service;

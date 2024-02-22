@@ -1,16 +1,18 @@
-import {Editor} from '@tinymce/tinymce-react';
-import {Controller} from 'react-hook-form';
+import {Editor } from '@tinymce/tinymce-react';
+import {Controller } from 'react-hook-form';
 
 
-export default function RTE({name, control, label, defaultValue=""}) {
+export default function RTE({name, control, label, defaultValue =""}) {
   return (
-  <div className='w-full'>
+    <div className='w-full'> 
     {label && <label className='inline-block mb-1 pl-1'>{label}</label>}
+
     <Controller
-     name={name || "control"}
-     control={control}
-     render={({field: {onChange}}) => (
+    name={name || "content"}
+    control={control}
+    render={({field: {onChange}}) => (
         <Editor
+        apiKey='p8q1ng1ny32f2atmzrh98v3xrwjbefxsi0c99j0561ibfz4n'
         initialValue={defaultValue}
         init={{
             initialValue: defaultValue,
@@ -46,6 +48,7 @@ export default function RTE({name, control, label, defaultValue=""}) {
         />
     )}
     />
-  </div>
+
+     </div>
   )
 }

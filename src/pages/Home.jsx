@@ -18,16 +18,16 @@ function Home() {
         return (
             <div className="w-full  py-8 text-center bg-blue-300">
                 <Container>
-                    <div className="flex gap-10">
-                        <div className="p-2 w-2/4 flex flex-col">
-                            <h1 className="text-5xl p-2 font-bold text-white">
+                    <div className="flex  gap-5 ">
+                        <div className="p-2 w-2/4  flex flex-col">
+                            <h1 className="text-3xl p-1 font-bold text-white sm:text-xl">
                             Create a blog
                             </h1>
-                            <p className='text-2xl font-medium italic text-white'>
+                            <p className=' font-bold text-xl sm:text-xs md:text-xl lg:text-2xl italic text-white '>
                             Share your story with the world. Stand out with a professionally-designed blog website that can be customized to fit your brand. Build, manage, and promote your blog with Squarespace’s built-in suite of design and marketing tools. 
                             </p>
                         </div>
-                        <div className="w-2/4 max-h-96 overflow-hidden ">
+                        <div className="w-2/4 max-h-96   overflow-hidden ">
                             <img className="w-full  animate-scroll" src="https://media-www.sqspcdn.com/images/pages/tour/blogs/hero/foreground-desktop-750w.jpg" alt="images" />
                         </div>
                     </div>

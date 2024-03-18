@@ -15,7 +15,7 @@ function Header() {
       active: true
     },
     {
-      name: 'Login',
+      name: 'Signin',
       slug: '/login',
       active: !authStatus,
     },
@@ -80,7 +80,7 @@ function Header() {
                           setMenuOpen(false); // Close menu on click
                           navigate(item.slug);
                         }}
-                        className="text-lg font-medium text-white transition-colors duration-200"
+                        className="text-lg font-medium text-white transition-colors duration-200 hover:bg-rose-400 rounded-full p-2"
                       >
                         {item.name}
                       </button>

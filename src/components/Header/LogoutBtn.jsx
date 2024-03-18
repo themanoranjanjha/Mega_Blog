@@ -10,7 +10,8 @@ function LogoutBtn() {
         })
     }
   return (
-    <button className='  inline-bock text-lg font-medium text-white transition-colors duration-200 '
+    <button className='  inline-bock text-lg font-medium text-white transition-colors duration-200
+    hover:bg-rose-400 rounded-full p-2 '
    
     onClick={logoutHandler}
     >Logout</button>
